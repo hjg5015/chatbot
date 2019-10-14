@@ -5,10 +5,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const app = express();
 
-//작은 따옴표 사이에 본인이 받으신 token을 paste합니다.
-//나중에 보안을 위해서 따로 setting을 하는 방법을 알려드리겠습니다.
-//이 토큰이 포함된 파일을 절대 업로드하거나 github에 적용시키지 마세요.
-var PAGE_ACCESS_TOKEN = 'EAAi16tJ3rFsBAPoNBzgu1V1hZBTpvG4qqQAfjLqy2UcwQNUfmbanh3V0TVl4tMi282dw8zSZCxKl6mV9y5J99hKhJR0FlF4rDiKrqLUw6KVHnxZCN6iIldoZCCr9xQWkUkijJIbMrrSBh1gLOzIBZAITGKyZAncAdk6UiqfF4KwAZDZD';
+var PAGE_ACCESS_TOKEN = '비공개';
 
 app.set('port', (process.env.PORT || 5000));
 
