@@ -1,3 +1,4 @@
+//
 'use strict'
 
 const express = require('express');
@@ -55,7 +56,7 @@ app.post("/webhook", function(req, res) {
 function receivedMessage(event) {
     var senderId = event.sender.id;
     var content = event.message.text;
-    var echo_message = "홍준기test : " + content;
+    var echo_message = "홍준기bot : " + content;
     sendTextMessage(senderId, echo_message);
 }
 
